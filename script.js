@@ -4,20 +4,20 @@ function stringChop(str, size) {
 	{
 		return [];
 	}
-	const size = [];
+	const result = [];
 	
 	for(let i = 0; i < str.length; i +=chunkLength)
 		{
 			const chunk = str.substring(i, i + chunkLength)
-			size.push(chunk);
+			result.push(size);
 		}
 	return size;
 }
 
 // Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
+// const str = prompt("Enter String.");
+// const size = prompt("Enter Chunk Size.");
+// alert(stringChop(str, size));
 
 
 
