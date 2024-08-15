@@ -4,7 +4,7 @@ function stringChop(str, size) {
 	{
 		return [];
 	}
-	const result = [];
+	const size = [];
 	
 	for(let i = 0; i < str.length; i +=chunkLength)
 		{
